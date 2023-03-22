@@ -4,7 +4,7 @@ const input = document.querySelector("#Tinput");
 const tskList = document.querySelector("#tasks");
 
 let badges = [{ name:"Boulder", imgB:"/Images/badge/b1.png"}
-  ,{name:"Cascade", imgB:"./Images/badge/b2.png"}
+  ,{name:"Cascade", imgB:"Images/badge/b2.png"}
   ,{name:"Thunder", imgB:"./Images/badge/b3.png"}
   ,{name:"Rainbow", imgB:"./Images/badge/b4.png"}
   ,{name:"Soul", imgB:"./Images/badge/b5.png"}
