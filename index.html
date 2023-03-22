@@ -1,45 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Set the page title -->
-    <title>Assignment 03</title>
+<link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<html lang="en-ca">
+ 
 
-    <!-- Set the charset we're using to UTF-8 -->
+  <head>
+    
+    <p class="pageTitle">Pokemon Gen 1 Task List</p>
+
+    <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
+
     <meta charset="UTF-8" />
 
-    <!-- Set the screens default zoom / scale to 1 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- We are using a CSS Reset file to standardize browser default css -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
     <link rel="stylesheet" href="reset.css" />
 
-    <!-- This is where all of our awesome CSS code goes -->
-    <link rel="stylesheet" href="style.css" />
 
-    <!-- Set the Favicon  -->
-    <link rel="icon" href="./images/favicon/rocket.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
+
+   
+    
+  </div>
+
+  <div id="background">
+  
+
   <body>
-    <!--
+  <sec>
+    <div class="top">
+    <h3>Create Tasks</h3>
+    <form id="newForm">
+      <input type="textbox" class="nes-input" placeholder="type in task..." id="Tinput"/>
+      <input type="submit" class="nes-pointer" value="Add Task" id="Tsubmit" name="Tsubmit"/>
 
-      ADD YOUR ASSIGNMENT 03 CODE
+       </form>
+    </div>    
 
-      YOU MAY REMOVE THE BOILERPLATE CODE BELOW
+   
 
-      IMPORTANT CHECKLIST:
+    <div class="nes-container is-rounded" id="bigOne">
+    <div class="listT">
+      <h3>Tasks</h3>
+      <div id="tasks" class="nes-container is-rounded">
+        <div class="todo-items">
+        <!-- Test Task box to tinker the CSS
+          
+          <div class="task1">
+          <div class="content">
+            <input type="text" class="text"value="hi" aria-readonly/>
 
-      - Are users able to create and delete to do list items?
-      - Have you set a favicon? (included - but it's a rocket)
-      - Do you have a css reset file? (included)
-      - Has a team member conducted a code review and left a GitHub Issue in your repo?
-      - Have you conducted a code review and left a GitHub Issue on your team member's repo?
 
-    -->
-    <main>
-      <div id="app"></div>
-    </main>
-
-    <!-- This is where we add our awesome JavaScript code -->
-    <script src="./main.js"></script>
+          </div>
+          <div class="actions">
+            <button class="delete">Delete</button>
+          </div>
+        </div>
+-->     </div>
+      </div>
+    </div>
+    </div>
+    </sec>
   </body>
+  </div>
+  <div >
+   
+  <div class="nes-container is-rounded">
+    <p id="dexT">Badges</p>
+    <ul class="badge-items " >
+      </ul>
+  </div>
+       
+  <div class="nes-container is-rounded">
+    <p id="dexT">Pokedex</p>
+  <ul class="nes-pointer pok"></ul>
+  
+  </div>
+
+
+
+<script src="javaScript.js"></script>
+ 
 </html>
