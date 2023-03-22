@@ -4,13 +4,13 @@ const input = document.querySelector("#Tinput");
 const tskList = document.querySelector("#tasks");
 
 let badges = [{ name:"Boulder", imgB:"/Images/badge/b1.png"}
-  ,{name:"Cascade", imgB:"/Images/badge/b2.png"}
-  ,{name:"Thunder", imgB:"/Images/badge/b3.png"}
-  ,{name:"Rainbow", imgB:"/Images/badge/b4.png"}
-  ,{name:"Soul", imgB:"/Images/badge/b5.png"}
-  ,{name:"Marsh", imgB:"/Images/badge/b6.png"}
-  ,{name:"Volcano", imgB:"/Images/badge/b7.png"}
-  ,{name:"Earth", imgB:"/Images/badge/b8.png"}
+  ,{name:"Cascade", imgB:"./Images/badge/b2.png"}
+  ,{name:"Thunder", imgB:"./Images/badge/b3.png"}
+  ,{name:"Rainbow", imgB:"./Images/badge/b4.png"}
+  ,{name:"Soul", imgB:"./Images/badge/b5.png"}
+  ,{name:"Marsh", imgB:"./Images/badge/b6.png"}
+  ,{name:"Volcano", imgB:"./Images/badge/b7.png"}
+  ,{name:"Earth", imgB:"./Images/badge/b8.png"}
 ]
 
 const badgelist = document.querySelector(".badge-items");
