@@ -198,4 +198,9 @@ npm install --save nes-react
   .pSec:hover{
     background-color: #b8c158;
   }
+  .bBox{
+    background-color: #f3f4e3;
+  }
+  
+
   
