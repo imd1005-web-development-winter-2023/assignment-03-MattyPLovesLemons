@@ -15,7 +15,7 @@ npm install --save nes-react
     border-left: none;
     border-right:none;
     padding: 25px;
-    background: url(/Images/forestPkm.png);
+    background: url(./Images/forestPkm.png);
     image-rendering: pixelated;
     min-height: 400px;
     margin-top: -16px;
