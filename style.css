@@ -204,6 +204,7 @@ npm install --save nes-react
   }
   .check{
     margin: 8px;
+    -webkit-appearance:checkbox;
   }
   
 
