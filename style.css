@@ -1,55 +1,211 @@
-/*
-  CSS File
-*/
+npm install --save nes-react
 
-/*
- VARIABLES
-*/
-:root {
-  /* Core colours */
-  /* https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557 */
-  --colour-amaranth: #e63946;
-  --colour-peppermint: #f1faee;
-  --colour-aquaisland: #a8dadc;
-  --colour-wedgewood: #457b9d;
-  --colour-cello: #1d3557;
+  .button{
+    background-color: #f4de52;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    
 
-  /* Header configuration */
-  --header-heading-colour: var(--colour-peppermint);
-
-  /* Body configuration */
-  --body-default-colour: var(--colour-cello);
-  --body-background-colour: var(--colour-peppermint);
-}
-
-/*
-  PAGE / BODY
-*/
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: var(--body-default-colour);
-  background-color: var(--body-background-colour);
-}
-
-main {
-  min-height: 100vh;
-
+  }
+  #background{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 10px;
+    border-left: none;
+    border-right:none;
+    padding: 25px;
+    background: url("./Images/forestPkm.png");
+    image-rendering: pixelated;
+    min-height: 400px;
+    margin-top: -16px;
+    background-size: 100%;
+    background-repeat:repeat-x;
+    background-color: #98e098;
+    
+  }
+  .pageTitle{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-align: center;
+    background-color: #df7767;
+    padding: 10px;
+  }
+ #Tsubmit{
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  background-color:#1e1e1e;
+   margin-left: auto; 
+   margin-right: auto;
+   margin-top: 15px ;
+   border: none;
+   color: white;
+   padding: 10px;
+   border-radius: 15px;
+   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  }
+  #Tsubmit:hover{background-color: #575757;}
+  #Tinput{
+    width: 100%;
+    justify-content: center;
+  }
+  .sec{
+    display:flex;
+    flex-direction: column;
+    
+  }
+  #bigOne{
+    background-color :#f6f4e4;
+  }
+  .top h3{
+    text-align: center;
+    font-size: 20px;
+    color:#fffdf6;
+    text-shadow: 0px 0px 10px #000000, 0px 0px 10px #000000;
+  }
+  /*
+  #Tinput{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: center;
+  }*/
+  .listT{
+    font-size: 12px;
+    padding: 2px;
+    margin-inline: -22px;
+  }
+  .listT h3{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 20px;
+  }
+  .text{
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+    
+  }
+  .delete{
+    font-family: 'Press Start 2P', cursive;
+    border-width: 4px;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-color: #1e1e1e;
+  }
+  #tasks{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+   margin-bottom: 30px;
+    justify-content: space-between;
+    background-color: #df7767;
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    flex: 1 1 0%;
+  }
+  #tasks .text{
+    border-color: #1e1e1e;
+    border-width: 5px;
+  }
+  .nes-container.is-rounded{
+    margin:20px;
+  }
+  button {
+    background-color: #f1f5d8;
+  
+  }
+  button:hover {
+    background-color: #d0db7c;
+  
+  }
+  .badge-items{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .bDiv{
+    border-style: solid;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    border-width: 4px;
+    padding: 10px;
+    margin: 10px;
+    width:100px;
+    height: 100px;
+    background-color: #f9fcce;
+    min-width: 100px;
+    min-height: 80px;
+  }
+  .bDiv:hover{
+    background-color: #ddd591;
+  }
+  .bIcon{
+    width: 60px;
+    height: 60px;
+    margin-left: 6px;
+  }
 
-/*
-  Screen reader text utility class
-*/
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
+  .pok{
+  display: flex;
+  flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+  }
+  .pImg{
+    height: 100;
+    width: 100%;
+    image-rendering: pixelated;
+    max-width: 90%;
+    max-height: 60%;
+    object-fit: cover;
+  }
+  .pkTitle{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    text-align: center;
+  }
+  .ty1{
+    margin-top: 8px;
+    display: inline;
+    image-rendering: pixelated;
+    width: 40%;
+    height: 15%;
+    margin-inline: 2px;
+  }
+  #dexT{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+  }
+  .pSec{
+    border-style: solid;
+    border-width: 4px;
+    padding: 10px;
+    margin: 10px;
+    width:100px;
+    height: 100px;
+    background-color: #dbe08c;
+    min-width: 100px;
+    min-height: 100px;
+    font-size: 8px;
+  }
+  .pSec:hover{
+    background-color: #b8c158;
+  }
+  .bBox{
+    background-color: #f3f4e3;
+  }
+  .check{
+    margin: 8px;
+    -webkit-appearance:checkbox;
+  }
+  
+
+  
