@@ -202,6 +202,9 @@ npm install --save nes-react
   .bBox{
     background-color: #f3f4e3;
   }
+  .check{
+    margin: 8px;
+  }
   
 
   
