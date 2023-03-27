@@ -190,7 +190,7 @@ for(let i=0;i < pokemons.length;i++)
 
 form.addEventListener('submit', (e) => {
  
-  const task = input.value;
+const task = input.value;
    e.preventDefault();
   if(!task)
   {
@@ -222,10 +222,16 @@ form.addEventListener('submit', (e) => {
   options.classList.add("actions");
 
   const deleteTask = document.createElement("button");
+  const check = document.createElement("input");
+  check.type = 'checkbox';
   deleteTask.classList.add("delete");
+  check.classList.add("check");
   deleteTask.innerHTML = "Delete";
-
+  
+  
+  options.appendChild(check);
   options.appendChild(deleteTask);
+  
 
   taskMsg.appendChild(options);
 
